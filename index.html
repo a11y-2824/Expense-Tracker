@@ -4,20 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker Application</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Expense Tracker Application</h1>
-    <p>Basic registration form</p>
-    <table>
-        <tr>
-            <td>Name</td>
-            <td>email</td>
-            <td>phone number</td>
-        </tr>
-    </table>
+    <nav>
+        <ul>
+            <li><a href="add_expense.html"> Add Expense </a></li>
+            <li><a href="edit_expense.html"> Edit Expense </a> </li>
+            <li><a href="view_expense.html"> View Expense </a></li>
+            <li><a href="login.html"> Login </a></li>
+            <li><a href="register.html"> Register </a></li>
+        </ul>
+    </nav>
+    <p></p>
+<form>
+    <form action="www.register-expensetracker.annie.org" method="post"></form>
+<table>
+  <caption>Basic registration form</caption>
+  <tbody>
+    <tr>
+      <th>Name</th>
+      <td><label for="User-name"> <input required type="text" id="User-name"  name="User-name" placeholder="First name Surname" ></label> </td>
+    </tr>
+    <tr>
+      <th>Email</th>
+      <td><label for="email"> <input required type="email" id="email"  name="Email" placeholder="someone@mail.com"></label></td>
+    </tr>
+    <tr>
+      <th>Phone Number</th>
+      <td><label for="Phone-number"><input required type="number" id="Phone-number"  name="Phone-number" placeholder="(+1234567)" ></label></td>
+    </tr>
+  </tbody>
+</table>
+</form>
     <br>
     <img src="images/image.png" alt="Image of a person tracking their expenses"></img>
     <br>
     <a href="www.google.com">Google</a>
 </body>
+<footer>
+    <p>&copy; 2024 Anne Wachana</p>
+</footer>
 </html>
